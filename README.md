@@ -6,11 +6,12 @@ A live data layer on top of android palette (easy and hassle-free)
 [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-LivePalette-green.svg?style=flat )]( https://android-arsenal.com/details/1/7310 )
 
 # how to use
-#### easy just call
 
 ````
 compile 'com.ark.android:livepalette:0.2.0'
 ````
+
+#### easy just call
 
 ````
 LiveData<List<Palette.Swatch>> liveData = LivePalette.analyze(bitmap);
